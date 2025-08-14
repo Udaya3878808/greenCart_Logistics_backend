@@ -14,7 +14,7 @@ dotenv.config();
 const app = express();
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174","https://green-cart-logistics-frontend-xzql-x9kgvq8k7.vercel.app"],
+    origin: ["http://localhost:5173", "http://localhost:5174","https://green-cart-logistics-frontend-p6l4-dqp1n03js.vercel.app"],
     credentials: true,
   })
 );
